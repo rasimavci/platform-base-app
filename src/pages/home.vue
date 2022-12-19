@@ -6,7 +6,7 @@ f7-page(lang="pug")
         a.link.icon-only.panel-open(href="#" data-panel="left")
           i.icon.f7-icons.ios-only menu
           i.icon.material-icons.md-only menu
-      .title.sliding Eğitim Platformu
+      .title.sliding Veri Analiği & Görselleştirme
       .right
         a.link.icon-only.panel-open(href="#" data-panel="right")
           i.icon.f7-icons.ios-only menu
@@ -53,13 +53,46 @@ export default {
   },
   methods: {
     generateMockData () {
-      for(let i = 0; i< 12; i++) {
+
+          this.mockData.push({
+          id: 1,
+          name: 'Sentiment Analizi',
+          icon: mockIcons[Math.floor(Math.random()*10)]
+        })
+
+          this.mockData.push({
+          id: 2,
+          name: 'Görüntü Analizi',
+          icon: mockIcons[Math.floor(Math.random()*10)]
+        })
+
+          this.mockData.push({
+          id: 3,
+          name: 'Müşteri Analitiği',
+          icon: mockIcons[Math.floor(Math.random()*10)]
+        })
+
+          this.mockData.push({
+          id: 4,
+          name: 'Öneri Sistemleri',
+          icon: mockIcons[Math.floor(Math.random()*10)]
+        })
+
+          this.mockData.push({
+          id: 2,
+          name: 'Sosyal Medya Analizi',
+          icon: mockIcons[Math.floor(Math.random()*10)]
+        })
+
+/*       for(let i = 0; i< 4; i++) {
         this.mockData.push({
           id: i,
           name: 'icon ' + i,
           icon: mockIcons[Math.floor(Math.random()*10)]
-        })
-      }
+        }
+        )
+      } */
+
       debugger
     }
   }

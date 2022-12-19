@@ -7,26 +7,26 @@
         .page
           .navbar
             .navbar-inner.sliding
-              .title Ana Menü
+              .title AnaPlatform
           .page-content
-            .block-title Ana Ekran Kontrolü
+            .block-title Main Screen Settings
             .list.links-list
               ul
                 li
-                  a.panel-close(href="/about/" data-view=".view-main") Hakkımızda
+                  a.panel-close(href="/about/" data-view=".view-main") Hakkında
                 li
-                  a.panel-close(href="/form/" data-view=".view-main") Başvuru
+                  a.panel-close(href="/form/" data-view=".view-main") Üyel Ol
                 li
-                  a.back(href="#" data-view=".view-main") Geri Git
+                  a.back(href="#" data-view=".view-main") Geri
     // Right panel with cover effect
     .panel.panel-right.panel-cover.theme-dark
       .view
         .page
           .navbar
             .navbar-inner
-              .title sağ Menü
+              .title right menu
           .page-content
-            .block sağ menü içeriği
+            .block right menu content
     f7-view(id="main-view" url="/" main)
 </template>
 

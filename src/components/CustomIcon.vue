@@ -2,7 +2,8 @@
 .custom-icon(@click='iconClicked')
   .icon-container
     i.icon.material-icons {{icon}}
-  .name deneme {{name}}
+  //- .name Application {{name.replace('icon','')}}
+  .name {{name}}  
 </template>
 
 <script>
@@ -25,7 +26,19 @@ export default {
   },
   methods: {
     iconClicked () {
-      alert("You clicked icon: " + this.name)
+   //   window.open('https://platform2-29ov.onrender.com/', '_blank');
+   if(this.name == "Sentiment Analizi")
+      window.open('https://platform2-29ov.onrender.com/sentiment-analizi.html', '_blank');
+   if(this.name == "Görüntü Analizi")
+      window.open('https://platform2-29ov.onrender.com/goruntu-analizi.html', '_blank');      
+    else if(this.name == "Müşteri Analitiği")
+      window.open('https://platform2-29ov.onrender.com/musteri-analitigi.html', '_blank');
+     else if(this.name == "Öneri Sistemleri")
+      window.open('https://platform2-29ov.onrender.com/oneri-sistemleri.html', '_blank'); 
+     else if(this.name == "Sosyal Medya Analizi")
+      window.open('https://platform2-29ov.onrender.com/sosyal-medya-analizi.html', '_blank');       
+    //  window.location.href = "https://platform2-29ov.onrender.com/";
+   //   alert("Application " + this.name + " is not ready yet !")
     }
   }
 }
