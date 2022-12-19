@@ -6,7 +6,7 @@
       
       <p><b>AnaPlatform'a Hoşgediniz</b></p>
 
-      <p><b>Büyük Veri ve Analitik hakkında kolay analitik sağlayan Bulut tabanlı (SaaS) AnaPlatform'a hoş geldiniz.</p>
+      <p>Büyük Veri ve Analitik hakkında kolay analitik sağlayan Bulut tabanlı (SaaS) AnaPlatform'a hoş geldiniz.</p>
 
 <p><b>AnaPlatform</b> bir self servis veri analitiği platformudur.</p>
 

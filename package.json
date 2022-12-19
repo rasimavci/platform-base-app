@@ -1,7 +1,7 @@
 {
-  "name": "rasim-base-app",
+  "name": "platform-base-app",
   "version": "0.0.1",
-  "description": "rasim-base-app Framework7 Vue Webpack starter app template",
+  "description": "platform-base-app data analytics starter app",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
@@ -24,11 +24,8 @@
     "app",
     "f7"
   ],
-  "author": "Vladimir Kharlampidi",
+  "author": "Rasim Avci",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/framework7io/framework7-template-vue-webpack/issues"
-  },
   "homepage": "http://framework7.io/vue/",
   "dependencies": {
     "framework7": "^3.0.0",
